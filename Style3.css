@@ -1,0 +1,51 @@
+.Oneb {
+    background-color: red;
+    width: 200px;
+    position: absolute;
+    right: 600px;
+    top: 50px;
+    padding: 5px;
+    
+    
+}
+
+.One1 > img {
+    opacity: 0.5;
+}
+
+.One2 {
+    position: absolute;
+    top: 150px;
+    right: 350px;
+    display: flex;
+}
+/* child selector using the symbol > */
+.One2 > div {
+    display: grid;
+    margin-right: 30px;
+
+}
+
+.One3 {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+.Onec {
+    position: absolute;
+    top: 190px;
+    right: 230px;
+}
+
+.Onec {}
+
+
+.One4 {
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 20px;
+    bottom:-165px;
+   padding: 5px;
+   margin: 10px;
+}
